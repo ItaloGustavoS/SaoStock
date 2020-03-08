@@ -30,7 +30,7 @@ export const NavBar = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" color="inherit">
-          Estoque do São Chico
+          Estoque São Chico
         </Typography>
       </Toolbar>
     </AppBar>
