@@ -15,14 +15,6 @@ const Home = () => {
           Seja Bem-Vindo ao prototipo do que algum dia sera o estoque do São
           Chico.
         </p>
-        <a
-          className="App-link"
-          href="https://www.radioterapiasaofrancisco.com.br/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Site do São Francisco
-        </a>
         <Link to="estoque">
           <Button variant="contained" color="primary">
             Estoque
