@@ -5,6 +5,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
+import { Button } from "@material-ui/core";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -32,6 +33,7 @@ export const NavBar = () => {
         <Typography variant="h6" color="inherit">
           Estoque São Chico
         </Typography>
+        <Button size="small" variant="contained" color="primary">Entrar</Button>
       </Toolbar>
     </AppBar>
   );
