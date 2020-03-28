@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 import Home from "./pages/home";
 import Stock from "./pages/stock";
@@ -14,6 +15,7 @@ import "./index.css";
 
 ReactDOM.render(
   <BrowserRouter>
+    <CssBaseline />
     <NavBar />
     <Switch>
       <Route exact path="/" component={Home} />
