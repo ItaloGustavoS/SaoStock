@@ -12,34 +12,30 @@ const Home = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Seja Bem-Vindo ao prototipo do que algum dia sera o estoque do São
+          Seja Bem-Vindo ao protótipo do que algum dia sera o estoque do São
           Chico.
         </p>
-        <a
-          className="App-link"
-          href="https://www.radioterapiasaofrancisco.com.br/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Site do São Francisco
-        </a>
         <Link to="estoque">
-          <Button variant="contained" color="primary">
+          <Button size="small" variant="contained" color="primary">
             Estoque
           </Button>
         </Link>
 
         <Link to="adicionar">
-          <Button variant="contained" color="primary">
+          <Button size="small" variant="contained" color="primary">
             Adicionar
           </Button>
         </Link>
 
         <Link to="remover">
-          <Button variant="contained" color="primary">
+          <Button size="small" variant="contained" color="primary">
             Retirar
           </Button>
         </Link>
+
+        <Button size="small" variant="contained" color="primary">
+          Compras
+        </Button>
       </header>
     </div>
   );
