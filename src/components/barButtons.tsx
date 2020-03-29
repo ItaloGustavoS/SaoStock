@@ -1,10 +1,10 @@
-import React from 'react'
-import Button from '@material-ui/core/Button';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
+import React from "react";
+import Button from "@material-ui/core/Button";
+import ButtonGroup from "@material-ui/core/ButtonGroup";
 
 import { makeStyles } from "@material-ui/core/styles";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   container: {
     width: "688px",
     display: "flex",
@@ -24,23 +24,44 @@ const useStyles = makeStyles(theme => ({
 
 type PropsType = {
   onClick: (path: string) => void;
-}
+};
 
 const StartButtons = (props: PropsType) => {
   const classes = useStyles();
-  
+
   return (
-    <ButtonGroup className={classes.container}
+    <ButtonGroup
+      className={classes.container}
       variant="contained"
       color="primary"
       aria-label="contained primary button group"
     >
-      <Button className={classes.button} onClick={()=> props.onClick("estoque")}>Estoque</Button>
-      <Button className={classes.button} onClick={()=> props.onClick("adicionar")}>Adicionar</Button>
-      <Button className={classes.button} onClick={()=> props.onClick("retirar")}>Retirar</Button>
-      <Button className={classes.button} onClick={()=> props.onClick("compras")}>Compras</Button>
+      <Button
+        className={classes.button}
+        onClick={() => props.onClick("estoque")}
+      >
+        Estoque
+      </Button>
+      <Button
+        className={classes.button}
+        onClick={() => props.onClick("adicionar")}
+      >
+        Adicionar
+      </Button>
+      <Button
+        className={classes.button}
+        onClick={() => props.onClick("retirar")}
+      >
+        Retirar
+      </Button>
+      <Button
+        className={classes.button}
+        onClick={() => props.onClick("compras")}
+      >
+        Compras
+      </Button>
     </ButtonGroup>
-  )
-}
+  );
+};
 
 export default StartButtons;

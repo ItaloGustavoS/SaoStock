@@ -7,20 +7,20 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import { Button } from "@material-ui/core";
 
-const useStyles = makeStyles(theme => ({
+const useStyles = makeStyles((theme) => ({
   menuButton: {
     marginRight: theme.spacing(2),
   },
   Paper: {
     padding: theme.spacing(2),
-    textAlign: 'center',
+    textAlign: "center",
     color: theme.palette.text.secondary,
   },
   loginButton: {
     position: "absolute",
     right: 16,
-    top: 8
-  }
+    top: 8,
+  },
 }));
 
 export const NavBar = () => {
@@ -40,7 +40,14 @@ export const NavBar = () => {
         <Typography variant="h6" color="inherit">
           Estoque São Chico
         </Typography>
-        <Button className={classes.loginButton} size="small" variant="contained" color="primary">Entrar</Button>
+        <Button
+          className={classes.loginButton}
+          size="small"
+          variant="contained"
+          color="primary"
+        >
+          Entrar
+        </Button>
       </Toolbar>
     </AppBar>
   );

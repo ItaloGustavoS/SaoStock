@@ -1,4 +1,5 @@
 ## Estoque São Chico
+
 E um projeto de faculdade para conclusão de curso que utiliza React e NodeJs, feito para testar e aprimorar conhecimentos e sera utilizado na empresa Instituto de Radioterapia São Francisco.
 
 Feito por Ítalo Gustavo e Marcelo Reis.
