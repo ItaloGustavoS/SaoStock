@@ -8,6 +8,7 @@ import Home from "./pages/home";
 import Stock from "./pages/stock";
 import AddItem from "./pages/add-item";
 import RemoveItem from "./pages/remove-item";
+import Compras from "./pages/compras";
 
 import { NavBar } from "./components/navbar";
 
@@ -21,7 +22,8 @@ ReactDOM.render(
       <Route exact path="/" component={Home} />
       <Route exact path="/estoque" component={Stock} />
       <Route exact path="/adicionar" component={AddItem} />
-      <Route exact path="/remover" component={RemoveItem} />
+      <Route exact path="/retirar" component={RemoveItem} />
+      <Route exact path="/compras" component={Compras} />
     </Switch>
   </BrowserRouter>,
   document.getElementById("root")
