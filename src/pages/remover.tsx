@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const AddItem = () => {
+const Remover = () => {
   return (
     <div>
       <Link to="/">GO TO HOME</Link>
@@ -9,4 +9,4 @@ const AddItem = () => {
   );
 };
 
-export default AddItem;
+export default Remover;
