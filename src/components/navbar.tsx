@@ -38,7 +38,7 @@ export const NavBar = () => {
           <MenuIcon />
         </IconButton>
         <Typography variant="h6" color="inherit">
-          Estoque São Chico
+          SãoStock
         </Typography>
         <Button
           className={classes.loginButton}
