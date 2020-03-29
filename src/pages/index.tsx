@@ -2,7 +2,6 @@ import React from "react";
 import { useHistory } from "react-router-dom";
 
 import BarButtons from "../components/barButtons";
-import "../App.css";
 
 const Index = () => {
   const history = useHistory();

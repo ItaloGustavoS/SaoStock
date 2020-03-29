@@ -12,24 +12,24 @@ import Compras from "./pages/compras";
 
 import { NavBar } from "./components/navbar";
 
-import "./index.css";
+import { ThemeProvider } from "@material-ui/core";
+import theme from "./theme";
 
 ReactDOM.render(
   <BrowserRouter>
-    <CssBaseline />
-    <NavBar />
-    <Switch>
-      <Route exact path="/" component={Index} />
-      <Route exact path="/estoque" component={Estoque} />
-      <Route exact path="/adicionar" component={Adicionar} />
-      <Route exact path="/retirar" component={Remover} />
-      <Route exact path="/compras" component={Compras} />
-    </Switch>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={Index} />
+        <Route exact path="/estoque" component={Estoque} />
+        <Route exact path="/adicionar" component={Adicionar} />
+        <Route exact path="/retirar" component={Remover} />
+        <Route exact path="/compras" component={Compras} />
+      </Switch>
+    </ThemeProvider>
   </BrowserRouter>,
   document.getElementById("root")
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
