@@ -19,7 +19,7 @@ const Pages = () => {
       <Route exact path="/" component={Index} />
       <Route exact path="/estoque" component={Estoque} />
       <Route exact path="/adicionar" component={Adicionar} />
-      <Route exact path="/retirar" component={Remover} />
+      <Route exact path="/remover" component={Remover} />
       <Route exact path="/compras" component={Compras} />
       <Route exact path="/login" component={Login} />
     </Switch>
