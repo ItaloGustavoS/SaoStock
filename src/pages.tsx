@@ -7,7 +7,6 @@ import Adicionar from "./pages/adicionar";
 import Remover from "./pages/remover";
 import Compras from "./pages/compras";
 import Login from "./pages/login";
-import SignUp from "./pages/SignUp";
 
 const Pages = () => {
   // Falta implementar redirect para login
@@ -23,7 +22,6 @@ const Pages = () => {
       <Route exact path="/remover" component={Remover} />
       <Route exact path="/compras" component={Compras} />
       <Route exact path="/login" component={Login} />
-      <Route exact path="/signUp" component={SignUp} />
     </Switch>
   );
 };
