@@ -45,6 +45,7 @@ export const NavBar = () => {
           size="small"
           variant="contained"
           color="primary"
+          href="/login"
         >
           Entrar
         </Button>
