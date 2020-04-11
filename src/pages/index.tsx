@@ -35,7 +35,7 @@ const Index = () => {
       </Grid>
       <Grid item xs={12}>
         <Typography variant="h4" component="h2" align="center">
-          Seja Bem-Vindo ao SãoStock.
+          Seja Bem-Vindo ao SãoStock
         </Typography>
       </Grid>
 
