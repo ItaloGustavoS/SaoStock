@@ -23,7 +23,7 @@ const Pages = () => {
       <Route exact path="/remover" component={Remover} />
       <Route exact path="/compras" component={Compras} />
       <Route exact path="/login" component={Login} />
-      <Route exact path="/signUp" component={SignUp} />
+      <Route exact path="/signup" component={SignUp} />
     </Switch>
   );
 };
