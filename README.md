@@ -1,4 +1,9 @@
-## Estoque São Chico
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b15a26c6-b364-43e0-a03e-cae9734bc687/deploy-status)](https://app.netlify.com/sites/saostock/deploys)
+
+## Sao Stock
+<p align="center">
+  <img width="300" height="300" src="./logo.png">
+</p>
 
 E um projeto de faculdade para conclusão de curso que utiliza React e NodeJs, feito para testar e aprimorar conhecimentos e sera utilizado na empresa Instituto de Radioterapia São Francisco.
 
