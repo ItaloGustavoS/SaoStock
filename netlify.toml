@@ -9,7 +9,6 @@
   port = 8080
   targetPort = 3000
   publish = "dist"
-  autoLaunch = true
 
 [context.branch-deploy]
   command = "echo branch"
