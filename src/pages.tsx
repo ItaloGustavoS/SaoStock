@@ -8,13 +8,9 @@ import Remover from "./pages/remover";
 import Compras from "./pages/compras";
 import Login from "./pages/login";
 import SignUp from "./pages/SignUp";
+import NotFound from "./pages/notFound";
 
 const Pages = () => {
-  // Falta implementar redirect para login
-  // if (true) {
-  //   return <Redirect to="/login" />;
-  // }
-
   return (
     <Switch>
       <Route exact path="/" component={Index} />
@@ -24,6 +20,7 @@ const Pages = () => {
       <Route exact path="/compras" component={Compras} />
       <Route exact path="/login" component={Login} />
       <Route exact path="/signup" component={SignUp} />
+      <Route component={NotFound} />
     </Switch>
   );
 };
