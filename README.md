@@ -1,5 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/e4795a230b124819aaaf35a117d268ea)](https://app.codacy.com/gh/SaoXico/SaoStock?utm_source=github.com&utm_medium=referral&utm_content=SaoXico/SaoStock&utm_campaign=Badge_Grade_Dashboard)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b15a26c6-b364-43e0-a03e-cae9734bc687/deploy-status)](https://app.netlify.com/sites/saostock/deploys)
+[![<SaoXico>](https://circleci.com/gh/SaoXico/SaoStock.svg?style=svg)]()
+
 
 ## Sao Stock
 
